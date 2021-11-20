@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #eaf2f8;
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 150px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #2980b9;
+  color: #eaf2f8;
+}
+
+.vit_logo {
+  height: 80px;
+  width: 220px;
+}
+
+.navbar h1 {
+  margin-left: auto;
+}
+
+.small_card_top {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+.small_card_middle {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+
+.small_card_content h4 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 8.5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.1;
+  color: inherit;
+  display: block;
+}
+
+.small_card_content h5 {
+  font-weight: bold;
+  color: #337ab7;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.1;
+  display: block;
+}
+
+.small_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 132px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.small_card_content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.small_card_bottom {
+  margin-left: auto;
+}
+
+.content {
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small_cards {
+  width: 400px;
+}
+
+.large_cards {
+  width: 900px;
+}
+
+.large_card {
+  transform: translateY(-153px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5px;
+  height: 152px;
+}
+
+.large_card_content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 130px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.large_card_top h4 {
+  transform: translateY(-5px);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.large_card_bottom {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.large_card_top {
+  width: 100%;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+
+.large_card_bottom {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.large_card_bottom p {
+  text-align: left;
+  font-weight: 500;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.1;
+}
+
+.login_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5px;
+  height: 332px;
+  width: 500px;
+}
+
+.login_card_content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 310px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login_card_top {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+.login_card_middle {
+  width: 100%;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+
+.password_icon {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.user_icon {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#pwd {
+  width: 80%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#reg {
+  width: 80%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#captcha {
+  width: 60%;
+  padding: 5px;
+}
+
+.input_div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.password_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.login_card_top {
+  width: 100%;
+}
+
+.login_card_top h3 {
+  transform: translateY(-5px);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.captcha_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.captcha_icon {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.login_card_bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Login_name {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burger_logo {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home_navbar {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #2980b9;
+  color: #eaf2f8;
+}
+
+.profile_logo {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.home_logo {
+  margin-left: 10px;
+  cursor: pointer;
+}
